@@ -1,0 +1,72 @@
+button {
+  width: 100px;
+  height: 40px;
+}
+h4 {
+  margin: 0;
+}
+p {
+  margin: 0;
+  color: grey;
+}
+a {
+  text-decoration: none;
+}
+.nav {
+  text-align: left;
+  background-color: black;
+  padding: 20px;
+}
+.nav > .logo {
+  position: absolute;
+  top: 30px;
+  width: 50px;
+}
+.nav > .tit {
+  margin-left: 30px;
+}
+.nav > div {
+  color: white;
+  padding: 10px 20px;
+  border-right: 1px solid white;
+  display: inline-block;
+}
+.nav a {
+  color: white;
+}
+
+.main-bg {
+  height: 300px;
+  margin-bottom: 5%;
+  /*background-image: url("./Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.png");*/
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  width: 100%;
+}
+.content * {
+  color: black;
+}
+.content > .content-box {
+  display: inline-block;
+  width: 33.33%;
+}
+.content > .content-box img {
+  width: 80%;
+}
+.content > .content-view {
+  margin-top: 50px;
+}
+.content > .content-view img{
+  width: 80%;
+}
+/*
+.btnBuy {
+  margin-top: 20px;
+  color: white;
+  background-color: #f33d3d;
+  border: 1px solid grey;
+  border-radius: 5%;
+}*/
